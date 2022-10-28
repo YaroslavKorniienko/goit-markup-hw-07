@@ -15,48 +15,47 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--Шапка-->
     <header class="header">
-      <div class="container header-container">
-        <nav class="header-nav">
-          <a class="logo" href="./index.html" lang="en"
-            >Web<span class="logo-studio">Studio</span>
+      <div class="container header__container">
+        <nav class="navigation">
+          <a class="logo navigation__logo" href="./index.html" lang="en"
+            >Web<span class="logo__part logo__part--black">Studio</span>
           </a>
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="header-link link" href="./index.html">Студія</a>
+          <ul class="menu list">
+            <li class="menu__item">
+              <a class="menu__link link" href="./index.html">Студія</a>
             </li>
-            <li class="header-item">
-              <a class="header-link current link" href="./portfolio.html">Портфоліо</a>
+            <li class="menu__item">
+              <a class="menu__link current link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="header-item">
-              <a class="header-link link" href="#">Контакти</a>
+            <li class="menu__item">
+              <a class="menu__link link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
-        <div class="header-conect">
-          <ul class="header-contacts list">
-            <li class="header-contacts-item">
-              <a class="header-contacts-list link" href="mailto:info@devstudio.com">
-                <svg class="mail-icon" width="16" height="12">
-                  <use href="./images/symbol-defs.svg#icon-mail"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="header-contacts-item">
-              <a class="header-contacts-list link" href="tel:+380961111111">
-                <svg class="phone-icon" width="16" height="12">
-                  <use href="./images/symbol-defs.svg#icon-phone"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
-        </div>
+
+        <ul class="connect header__connect list">
+          <li class="connect__item">
+            <a class="connect__list link" href="mailto:info@devstudio.com">
+              <svg class="connect__mail-icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="connect__item">
+            <a class="connect__list link" href="tel:+380961111111">
+              <svg class="connect__phone-icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <!-- Основной контент -->
@@ -258,8 +257,8 @@
     <footer class="footer">
       <div class="container-footer container">
         <div class="address-container">
-          <a class="footer-logo" href="./index.html" lang="en"
-            >Web<span class="logo-white">Studio</span>
+          <a class="logo navigation__logo" href="./index.html" lang="en"
+            >Web<span class="logo__part logo__part--white">Studio</span>
           </a>
           <address class="footer-addres">
             <ul class="footer-contacts-list list">
