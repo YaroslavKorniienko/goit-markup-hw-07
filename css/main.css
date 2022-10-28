@@ -1,0 +1,29 @@
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --black-logo-color: #000000;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --white-background-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+  --bg-active-color: #188ce8;
+  --bg-features-icon: #f5f4fa;
+  --main-icon-color: #afb1b8;
+  --transition-timing-main: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}/*# sourceMappingURL=main.css.map */
